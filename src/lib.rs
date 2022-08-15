@@ -12,7 +12,7 @@ pub fn build(args: &[&str]) -> String {
 }
 
 /// # Stylish println
-/// Example: `styled_print("hello", &[sequences::colors::foreground::RED,sequences::styles::set::BOLD])`
+/// Example: `sprint("hello", &[sequences::colors::foreground::RED,sequences::styles::set::BOLD])`
 pub fn sprint(message: &str, style: &[&str]) {
     let builded = build(style);
     println!("{}{}{}{}", builded, message, ESC, RESET);

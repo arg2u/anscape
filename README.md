@@ -17,11 +17,11 @@ use anscape::{
     sequences::colors,
     sequences::colors::codes::*, 
     sequences::styles::set::*, 
-    styled_print,
+    sprint,
 };
 
 fn main() {
-    styled_print("Red text", &[&colors::basic_fg(RED, false)[..], BOLD]);
+    sprint("Red text", &[&colors::basic_fg(RED, false)[..], BOLD]);
     println!(
         "{}Alternative with println",
         anscape::build(&[&colors::basic_fg(RED, false), BOLD])

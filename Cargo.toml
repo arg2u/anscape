@@ -1,12 +1,13 @@
 [package]
 name = "anscape"
-version = "0.1.1"
+version = "0.2.1"
 edition = "2021"
 license = "MIT"
 exclude=[".DS_Store"]
 description = "Anscape provides a simple ways to customize your terminal window with styles and a cursor manipulations using ANSI Escape Sequences"
 repository = "https://github.com/arg2u/anscape"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+documentation="https://docs.rs/anscape"
+keywords = ["color", "terminal"]
 
 [lib]
 name = "anscape"
@@ -16,3 +17,4 @@ doc = true
 crate-type = ["lib"]
 
 [dependencies]
+paste = "1.0.8"

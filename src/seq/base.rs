@@ -5,4 +5,4 @@
 pub const ESC: &str = "\x1b[";
 /// # Reset sequence
 /// Resets all styles and colors
-pub const RESET: &str = "0m";
+pub const RESET: &str = "\x1b[0m";

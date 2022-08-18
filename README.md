@@ -1,7 +1,7 @@
 [![Latest Version](https://img.shields.io/crates/v/anscape.svg)](https://crates.io/crates/anscape) | [Documentation](https://docs.rs/anscape)
 ===
 
-**Anscape** provides a simple way to customize your terminal window with some styles and colors and manipulate with cursor position using ANSI Escape Sequences.
+**Anscape** provides a simple way to customize your terminal window with some styles and colors and manipulate with a cursor position using ANSI Escape Sequences.
 
 ## Features
 

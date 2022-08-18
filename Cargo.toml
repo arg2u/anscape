@@ -1,10 +1,10 @@
 [package]
 name = "anscape"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 license = "MIT"
 exclude=[".DS_Store"]
-description = "Anscape provides a simple ways to customize your terminal window with styles and a cursor manipulations using ANSI Escape Sequences"
+description = "Anscape provides a simple way to customize your terminal window with some styles and colors and manipulate with a cursor position using ANSI Escape Sequences."
 repository = "https://github.com/arg2u/anscape"
 documentation="https://docs.rs/anscape"
 keywords = ["color", "terminal"]
